@@ -1,0 +1,87 @@
+.titulo__prods{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+  }
+  .barrart {
+    padding: 20px;
+    color: $dark-color;
+    text-decoration: dotted;
+    padding-bottom: 10px;
+    font-size: 120%;
+    text-align: justify;
+  }
+  .barrartc a {
+    color: $dark-color;
+  }
+  .items1 {
+    padding-left: 40px;
+    text-decoration: underline;
+  }
+  .titulop {
+    padding: 20px;
+    text-align: center;
+  }
+  .accesoriost {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+  .accesoriostl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .producto img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .producto-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  .producto-body button {
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 1s;
+  }
+  
+  .producto-body button:hover {
+    background-color: $dark-color;
+    color: $white-color;
+    font-size: 25px;
+    transition: 1s;
+  }
+  .productos{
+    padding-bottom: 20px;
+  
+   .producto{
+     width: 250px;
+     background-color: $dark-color;
+     color: $white-color;
+     border-radius: 15px;
+     border: 1px solid $dark-color;
+     box-shadow: 5px 5px 0px $white-color;
+     transition: 1s;
+  
+     &:hover{
+       background-color: $white-color;
+       color: $dark-color;
+       box-shadow: 5px 5px 0px $dark-color;
+       transition: 1s;
+     }
+   }
+  }

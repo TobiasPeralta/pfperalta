@@ -1,0 +1,40 @@
+.titulo__pro{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+  }
+.mainp2 {
+  @extend .flex;
+}
+  .logo__black {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .imagenes__inicio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .grid__item__impar {
+    width: 100%;
+    height: 400px;
+    border: 3px solid $dark-color;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .grid__item__impar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #ecologo {
+    width: 400px;
+    height: 400px;
+  }

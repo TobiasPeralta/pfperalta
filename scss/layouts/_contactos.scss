@@ -1,0 +1,33 @@
+.titulo__cont{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+  }
+  .titulocont {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .contactos {
+    font-size: 150%;
+    text-align: center;
+  }
+  .contactos_link{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .mapa {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .maps{
+    border: 3px solid $dark-color;
+    border-radius: 15px;
+  }
