@@ -1,5 +1,5 @@
 .texto__inicio {
-  @extend .flex;
+  @include texto_inicio;
   }
   .titulocons {
     display: flex;

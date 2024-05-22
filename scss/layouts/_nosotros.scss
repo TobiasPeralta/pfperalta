@@ -33,7 +33,7 @@
   }
   
   .mainp1 {
-    @extend .flex;
+    @include texto_inicio;
   }
   .titulop{
     padding: 20px;

@@ -7,7 +7,7 @@
     text-align: center;
   }
 .mainp2 {
-  @extend .flex;
+  @include texto_inicio;
 }
   .logo__black {
     display: flex;

@@ -5,13 +5,12 @@
   font-family: monospace;
 }
 
-.flex, .mainp2, .mainp1, .texto__inicio {
+/*.flex{
   display: flex;
   text-align: justify;
   padding: 40px;
   font-size: 150%;
-}
-
+}*/
 .textft, .textof {
   font-size: 140%;
   padding: 30px;
@@ -77,6 +76,13 @@ footer h6 {
 
 footer figure {
   color: aliceblue;
+}
+
+.texto__inicio {
+  display: flex;
+  text-align: justify;
+  padding: 40px;
+  font-size: 150%;
 }
 
 .titulocons {
@@ -374,6 +380,13 @@ body {
   padding: 40px;
 }
 
+.mainp1 {
+  display: flex;
+  text-align: justify;
+  padding: 40px;
+  font-size: 150%;
+}
+
 .titulop {
   padding: 20px;
   text-decoration: underline;
@@ -407,6 +420,13 @@ body {
   text-decoration: underline;
   font-style: italic;
   text-align: center;
+}
+
+.mainp2 {
+  display: flex;
+  text-align: justify;
+  padding: 40px;
+  font-size: 150%;
 }
 
 .logo__black {
