@@ -18,13 +18,17 @@
     background-color: $dark-color;
     margin: 10px;
   }
-  
-  nav ul li a {
-    text-decoration: none;
+  .nav{
+    ul li a{
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
-  
   li a {
     color: $white-color;
+    font-size: 15px;
   }
   header {
     background-color: $dark-color;

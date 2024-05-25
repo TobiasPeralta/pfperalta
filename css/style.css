@@ -5,12 +5,6 @@
   font-family: monospace;
 }
 
-/*.flex{
-  display: flex;
-  text-align: justify;
-  padding: 40px;
-  font-size: 150%;
-}*/
 .textft, .textof {
   font-size: 140%;
   padding: 30px;
@@ -38,12 +32,16 @@ nav li {
   margin: 10px;
 }
 
-nav ul li a {
+.nav ul li a {
   text-decoration: none;
+}
+.nav ul li a:hover {
+  text-decoration: underline;
 }
 
 li a {
   color: white;
+  font-size: 15px;
 }
 
 header {
@@ -377,7 +375,6 @@ body {
 
 .main1 {
   display: flex;
-  padding: 40px;
 }
 
 .mainp1 {
@@ -462,22 +459,18 @@ body {
 }
 
 @media (max-width: 480px) {
-  .imagenes__inicio {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 20px;
-    gap: 20px;
-  }
-}
-@media (max-width: 480px) {
   .imagenes__inicioft {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 20px;
     gap: 20px;
   }
-}
-@media (max-width: 480px) {
+  .imagenes__inicio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+    gap: 20px;
+  }
   .accesoriostl {
     display: grid;
     text-align: center;
@@ -504,6 +497,9 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .nav ul li a {
+    font-size: 10px;
+  }
   #imagen__logo {
     display: flex;
     justify-content: center;
@@ -518,6 +514,10 @@ body {
   }
   .frase {
     text-align: center;
+  }
+  #ecologo {
+    width: 300px;
+    height: 300px;
   }
 }
 

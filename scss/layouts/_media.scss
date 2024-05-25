@@ -1,11 +1,4 @@
-@media (max-width: 480px) {
-    .imagenes__inicio {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      padding: 20px;
-      gap: 20px;
-    }
-  }
+
   @media (max-width: 480px) {
     .imagenes__inicioft {
       display: grid;
@@ -13,8 +6,12 @@
       padding: 20px;
       gap: 20px;
     }
-  }
-  @media (max-width: 480px) {
+    .imagenes__inicio {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding: 20px;
+      gap: 20px;
+    }
     .accesoriostl {
       display: grid;
       text-align: center;
@@ -41,6 +38,9 @@
       display: flex;
       flex-direction: column;
     }
+    .nav ul li a{
+      font-size: 10px;
+    }
     #imagen__logo {
       display: flex;
       justify-content: center;
@@ -55,5 +55,9 @@
     }
     .frase {
       text-align: center;
+    }
+    #ecologo{
+      width: 300px;
+      height: 300px;
     }
   }
