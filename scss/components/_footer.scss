@@ -11,3 +11,11 @@ footer {
   footer figure {
     color: aliceblue;
   }
+  .iconos{
+    color: $white-color;
+    padding: 15px;
+  }
+  .iconos__cont{
+    display: flex;
+    justify-content: center;
+  }
